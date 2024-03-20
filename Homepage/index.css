@@ -1,0 +1,226 @@
+.mainpage-child {
+  width: 960px;
+  height: 1080px;
+  position: relative;
+  background: linear-gradient(180deg, #97f9ff, #379399);
+  display: none;
+  max-width: 100%;
+}
+.hub {
+  color: var(--color-skyblue);
+}
+.genai-hub-txt-container {
+  width: 100%;
+}
+.genai-hub {
+  margin: 0;
+  width: 703px;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 900;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.genai-hub-wrapper {
+  width: 1423px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.blank-line,
+.blank-line1,
+.blank-line2,
+.blank-line3,
+.chatbots-text,
+.empowering-tomorrows-solution,
+.summarization-and-code {
+  margin: 0;
+}
+.empowering-tomorrows-solution-container1 {
+  width: 100%;
+}
+.empowering-tomorrows-solution-container {
+  position: absolute;
+  top: 155px;
+  left: 43px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  width: 1479px;
+  height: 112px;
+  backdrop-filter: blur(4px);
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+  z-index: 1;
+}
+.frame,
+.frame-child {
+  position: absolute;
+  display: none;
+}
+.frame-child {
+  top: 0;
+  left: calc(50% - 783px);
+  border-radius: var(--br-4xl);
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.frame {
+  top: 299.4px;
+  left: 1235.4px;
+  width: 71.8px;
+  height: 28.2px;
+  overflow: hidden;
+}
+.empowering-tomorrows-solution-parent {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 783px);
+  border-radius: var(--br-4xl);
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.frame-wrapper {
+  align-self: stretch;
+  height: 458px;
+  position: relative;
+  z-index: 2;
+}
+.frame-item,
+.get-started {
+  position: relative;
+  max-width: 100%;
+}
+.frame-item {
+  height: 85px;
+  width: 620px;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-skyblue);
+  display: none;
+}
+.get-started {
+  height: 47px;
+  flex: 1;
+  font-size: var(--font-size-12xl);
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: var(--sf-pro-rounded-h3-bold);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frame-container,
+.rectangle-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lgi) var(--padding-46xl);
+  background-color: var(--color-skyblue);
+  width: 620px;
+  border-radius: var(--br-13xl);
+  justify-content: flex-start;
+  z-index: 1;
+}
+.rectangle-parent:hover {
+  background-color: var(--color-deepskyblue);
+}
+.frame-container {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.frame-parent,
+.mainpage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-family: var(--sf-pro-rounded-h3-bold);
+}
+.frame-parent {
+  align-self: stretch;
+  gap: 41px;
+  max-width: 100%;
+  font-size: var(--font-size-29xl);
+  color: #1d1a19;
+}
+.mainpage {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(180deg, #fff, #b2dcdc);
+  overflow: hidden;
+  padding: 251px 177px var(--padding-31xl);
+  box-sizing: border-box;
+  gap: 115px;
+  letter-spacing: normal;
+  font-size: 128px;
+  color: var(--color-white);
+}
+@media screen and (max-width: 975px) {
+  .mainpage {
+    gap: 57px 115px;
+    padding-left: var(--padding-69xl);
+    padding-right: var(--padding-69xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 950px) {
+  .genai-hub {
+    font-size: var(--font-size-32xl);
+    line-height: 48px;
+  }
+  .empowering-tomorrows-solution-container {
+    font-size: var(--font-size-19xl);
+    line-height: 22px;
+  }
+  .get-started {
+    font-size: var(--font-size-6xl);
+  }
+}
+@media screen and (max-width: 700px) {
+  .rectangle-parent {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .frame-parent {
+    gap: 20px 41px;
+  }
+  .mainpage {
+    gap: 29px 115px;
+    padding-left: var(--padding-25xl);
+    padding-right: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .genai-hub {
+    font-size: var(--font-size-13xl);
+    line-height: 32px;
+  }
+  .empowering-tomorrows-solution-container {
+    font-size: var(--font-size-10xl);
+    line-height: 17px;
+  }
+  .get-started {
+    font-size: var(--font-size-lgi);
+  }
+}

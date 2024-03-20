@@ -1,0 +1,481 @@
+.signuppage-child {
+  height: 1080px;
+  width: 960px;
+  position: relative;
+  background: linear-gradient(180deg, #97f9ff, #379399);
+  display: none;
+  max-width: 100%;
+}
+.saly-3-icon1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 2;
+}
+.saly-3-container {
+  height: 391px;
+  width: 269px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 135px 0 0;
+  box-sizing: border-box;
+}
+.line-icon {
+  height: 7px;
+  width: 746px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 345px;
+  left: -535px;
+  object-fit: contain;
+  z-index: 1;
+}
+.frame-child1 {
+  width: 539px;
+  height: 741px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background: linear-gradient(180deg, #fff, #95cec7);
+  box-shadow: 0 4px 35px rgba(0, 0, 0, 0.08);
+  display: none;
+  max-width: 100%;
+}
+.sign-up1,
+.welcome-to-genai {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--sf-pro-rounded-h3-bold);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 3;
+}
+.sign-up1 {
+  margin: 0;
+  width: 205px;
+  height: 83px;
+  font-size: var(--font-size-36xl);
+  font-weight: 500;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.welcome-to-genai-hub-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 230px;
+}
+.have-an-account {
+  margin: 0;
+  color: var(--color-gray-100);
+}
+.sign-in2 {
+  margin: 0;
+  color: var(--color-darkgoldenrod);
+}
+.have-an-account-container {
+  position: relative;
+  font-size: var(--font-size-smi);
+  font-family: var(--sf-pro-rounded-h3-bold);
+  text-align: left;
+  cursor: pointer;
+  z-index: 1;
+}
+.have-an-account-sign-in-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.frame-parent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.enter-your-username1,
+.instance-inner {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 2554057;
+}
+.enter-your-username1 {
+  margin-top: -37px;
+  font-size: var(--sf-pro-rounded-h3-bold-size);
+  font-family: var(--sf-pro-rounded-h3-bold);
+  color: var(--color-black);
+  text-align: left;
+}
+.instance-inner {
+  border: 1px solid var(--color-dodgerblue);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 57px;
+  border-radius: var(--br-4xs);
+  background: linear-gradient(180deg, #fff, #95cec7);
+  box-sizing: border-box;
+  min-width: 250px;
+}
+.username-or-email1 {
+  width: 302px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 19px;
+  left: 25px;
+  font-size: var(--body-l-size);
+  font-weight: 300;
+  font-family: var(--sf-pro-rounded-h3-bold);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.enter-your-username-or-email-a-group {
+  align-self: stretch;
+  height: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-16xl) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-smi);
+  z-index: 1;
+}
+.user-name {
+  width: 216px;
+  top: 0;
+  font-size: var(--sf-pro-rounded-h3-bold-size);
+  font-family: var(--sf-pro-rounded-h3-bold);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.rectangle-input,
+.user-name,
+.user-name1 {
+  position: absolute;
+  margin: 0 !important;
+  right: -49px;
+}
+.rectangle-input {
+  border: 1px solid var(--color-darkgray-100);
+  outline: 0;
+  background-color: transparent;
+  width: 216px;
+  height: 57px;
+  bottom: 0;
+  border-radius: var(--br-4xs);
+  background: linear-gradient(180deg, #fff, #95cec7);
+  box-sizing: border-box;
+}
+.user-name1 {
+  width: 203px;
+  bottom: 16px;
+  font-size: var(--body-l-size);
+  font-weight: 300;
+  font-family: var(--sf-pro-rounded-h3-bold);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.user-name-parent {
+  height: 86px;
+  width: 167px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  z-index: 1;
+}
+.contact-number {
+  width: 216px;
+  top: 0;
+  font-size: var(--sf-pro-rounded-h3-bold-size);
+  font-family: var(--sf-pro-rounded-h3-bold);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.contact-number,
+.contact-number1,
+.instance-child1 {
+  position: absolute;
+  margin: 0 !important;
+  right: -49px;
+}
+.instance-child1 {
+  border: 1px solid var(--color-darkgray-100);
+  outline: 0;
+  background-color: transparent;
+  width: 216px;
+  height: 57px;
+  bottom: 0;
+  border-radius: var(--br-4xs);
+  background: linear-gradient(180deg, #fff, #95cec7);
+  box-sizing: border-box;
+}
+.contact-number1 {
+  width: 203px;
+  bottom: 16px;
+  font-size: var(--body-l-size);
+  font-weight: 300;
+  font-family: var(--sf-pro-rounded-h3-bold);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.contact-number-parent {
+  height: 86px;
+  width: 167px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  z-index: 1;
+}
+.instance-container {
+  width: 402px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.enter-your-password1,
+.instance-child2 {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 2554057;
+}
+.enter-your-password1 {
+  margin-top: -37px;
+  font-size: var(--sf-pro-rounded-h3-bold-size);
+  font-family: var(--sf-pro-rounded-h3-bold);
+  color: var(--color-black);
+  text-align: left;
+}
+.instance-child2 {
+  border: 1px solid var(--color-darkgray-100);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 57px;
+  border-radius: var(--br-4xs);
+  background: linear-gradient(180deg, #fff, #95cec7);
+  box-sizing: border-box;
+  min-width: 250px;
+}
+.password1 {
+  width: 302px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 19px;
+  left: 25px;
+  font-size: var(--body-l-size);
+  font-weight: 300;
+  font-family: var(--sf-pro-rounded-h3-bold);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.enter-your-password-group,
+.instance-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.enter-your-password-group {
+  height: 92px;
+  padding: var(--padding-16xl) 0 0;
+  position: relative;
+  gap: var(--gap-smi);
+  z-index: 1;
+}
+.instance-group {
+  padding: 0 0 var(--padding-lg);
+  gap: var(--gap-16xl);
+  max-width: 100%;
+}
+.frame-child2 {
+  height: 54px;
+  width: 451px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-skyblue);
+  box-shadow: 0 4px 19px rgba(119, 147, 65, 0.3);
+  display: none;
+  max-width: 100%;
+}
+.sign-up2 {
+  width: 74px;
+  position: relative;
+  font-size: var(--sf-pro-rounded-h3-bold-size);
+  font-weight: 500;
+  font-family: var(--sf-pro-rounded-h3-bold);
+  background: linear-gradient(180deg, #fff, #95cec7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.group-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-xl) var(--padding-mini) 39px;
+  background-color: var(--color-skyblue);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 19px rgba(119, 147, 65, 0.3);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 1;
+}
+.group-button:hover {
+  background-color: var(--color-deepskyblue);
+}
+.group-form {
+  margin: 0;
+  flex: 1;
+  border-radius: var(--br-21xl);
+  background: linear-gradient(180deg, #fff, #95cec7);
+  box-shadow: 0 4px 35px rgba(0, 0, 0, 0.08);
+  flex-direction: column;
+  padding: 47px var(--padding-25xl) var(--padding-60xl);
+  box-sizing: border-box;
+  gap: var(--gap-26xl);
+  z-index: 2;
+}
+.group-form,
+.line-parent,
+.signuppage-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.line-parent {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.signuppage-inner {
+  width: 557px;
+  flex-direction: column;
+  padding: 0 var(--padding-lg) 0 0;
+  box-sizing: border-box;
+}
+.saly-2-icon1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.saly-2-wrapper,
+.signuppage {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.saly-2-wrapper {
+  height: 553px;
+  width: 450px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 103px 0 0;
+  max-width: 100%;
+}
+.signuppage {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(180deg, #fff, #95cec7);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: 170px var(--padding-xl) 169px 248px;
+  letter-spacing: normal;
+  row-gap: 20px;
+  cursor: pointer;
+}
+@media screen and (max-width: 1500px) {
+  .signuppage {
+    flex-wrap: wrap;
+    padding-left: var(--padding-105xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .sign-up1 {
+    font-size: var(--font-size-25xl);
+  }
+  .welcome-to-genai-hub-parent {
+    flex: 1;
+  }
+  .frame-parent2,
+  .instance-container {
+    flex-wrap: wrap;
+  }
+  .group-form {
+    gap: 22px 45px;
+    padding: 31px var(--padding-3xl) 51px;
+    box-sizing: border-box;
+  }
+  .saly-2-wrapper {
+    padding-top: var(--padding-48xl);
+    box-sizing: border-box;
+  }
+  .signuppage {
+    padding-left: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .saly-3-container {
+    padding-top: var(--padding-69xl);
+    box-sizing: border-box;
+  }
+  .welcome-to-genai {
+    font-size: var(--sf-pro-rounded-h3-bold-size);
+  }
+  .sign-up1 {
+    font-size: var(--font-size-14xl);
+  }
+  .instance-group {
+    gap: 17px 35px;
+  }
+  .signuppage {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
